@@ -1,0 +1,16 @@
+.card-acc h6 {
+  padding: 40px 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card-acc {
+  margin: 20px 0;
+  border-radius: 10px;
+  height: 80%;
+}
+
+.spinner {
+  text-align: center !important;
+  margin: 40px 0;
+}

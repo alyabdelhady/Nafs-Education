@@ -1,0 +1,56 @@
+.logo-name {
+  font-size: 19px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.logo-parent {
+  text-decoration: none;
+}
+
+.offcanvas-body {
+  display: block !important;
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+#lblCartCount {
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 2px 5px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+
+.notifi-icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.topbarImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  background-color: #595b83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.user-icon {
+  color: white;
+  font-size: 18px;
+}

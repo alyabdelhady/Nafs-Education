@@ -1,0 +1,47 @@
+.countryImg {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  background-color: #595b83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+}
+.countryCard {
+  margin: 20px 0;
+  border-radius: 10px;
+  border: 2px solid #d2d2d2;
+  box-shadow: 1px 1px #d2d2d2;
+}
+
+.countryCard h6 {
+  padding: 0;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.country-link {
+  text-decoration: none;
+  color: #212529;
+}
+.country-link:hover {
+  color: #212529;
+}
+
+.country-link:hover .countryImg {
+  animation: rotation;
+  animation-duration: 1s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

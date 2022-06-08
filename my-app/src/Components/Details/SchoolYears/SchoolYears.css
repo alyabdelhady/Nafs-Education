@@ -1,0 +1,17 @@
+.grade-card {
+  box-shadow: 0 2px white;
+  border: 2px solid #d2d2d2;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.grade-card:hover p {
+  transform: scale(1.1);
+  margin-right: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.grade-card p {
+  transition: all 0.5s ease;
+}
